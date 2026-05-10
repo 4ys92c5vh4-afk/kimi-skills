@@ -12,11 +12,11 @@ graceful fallback to native git/filesystem tools if it is not.
 ## Step 1 — Check for warm-start script
 
 ```bash
-if [ -f ~/.claude/scripts/warm-start.sh ]; then
-  ~/.claude/scripts/warm-start.sh <<< '{"source":"manual","cwd":"'"$(pwd)"'"}'
+if [ -f ~/.kimi/scripts/warm-start.sh ]; then
+  ~/.kimi/scripts/warm-start.sh <<< '{"source":"manual","cwd":"'"$(pwd)"'"}'
 else
   echo "WARM-START SCRIPT NOT FOUND"
-  echo "Expected location: ~/.claude/scripts/warm-start.sh"
+  echo "Expected location: ~/.kimi/scripts/warm-start.sh"
   echo "Falling back to native project scan..."
 fi
 ```
@@ -64,7 +64,7 @@ Arguments received: $ARGUMENTS
 If the script is missing and the user wants to set it up, the expected location is:
 
 ```
-~/.claude/scripts/warm-start.sh
+~/.kimi/scripts/warm-start.sh
 ```
 
 This is a user-maintained shell script that emits a JSON blob or structured text
