@@ -1,6 +1,6 @@
-# biotech-incubator v1.0
+# IN3LAB-assessment v1.0
 
-生物医药孵化器评审与运营助手
+生物芯片开放创新中心项目入孵评估工具
 
 ## 版本信息
 - **版本**：v1.0
