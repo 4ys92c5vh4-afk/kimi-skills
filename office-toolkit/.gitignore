@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (examples generate these)
+examples/*.docx
+examples/*.xlsx
+examples/*.pdf
+examples/*.txt
+examples/*.csv
+examples/pdf_images/
+examples/*.pptx
+
+# Test files
+test_files/

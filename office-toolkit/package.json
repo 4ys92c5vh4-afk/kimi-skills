@@ -1,0 +1,12 @@
+{
+  "name": "office-toolkit",
+  "version": "1.0.0",
+  "description": "One-stop office file processing toolkit",
+  "scripts": {
+    "install-deps": "npm install -g docx pptxgenjs"
+  },
+  "dependencies": {
+    "docx": "^9.7.0",
+    "pptxgenjs": "^3.12.0"
+  }
+}
